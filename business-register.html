@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="custom-style.css">
+
+    <title>Business Register</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm" style="background-color: white;">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="image/Logo.png" width="120"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" style="color: #44d9e6;" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="businesses.html">Businesses</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Giveaway
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">View All</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+                <a  class="btn btn-cust-border" href="login-signup.html" style="margin-right: 1rem;" type="submit">Log In | Sign Up</a>
+                <a  class="btn btn-cust-primary" href="business-register.html" type="submit">List Your Business!</a>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid" style="background-color: #edf8f8; padding-top: 50px; padding-bottom: 50px;">
+        <!-- For Web View -->
+        <div class="container shadow d-none d-lg-block" style="width: 80%; border-radius: 10px;">
+          <div class="row">
+            <div class="col-lg-8" style="padding: 30px; border-bottom-left-radius: 10px; border-top-left-radius: 10px; background-color: white;">
+              <div class="container" style="width: 80%;">
+                <div class="mt-5" style="color: #44d9e6; padding-bottom: 30px;">
+                  <h4>Register Your Business for Free!</h4>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <input type="text" class="form-control" id="email" placeholder="Email">
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-lg-6">
+                    <div class="col-lg-12">
+                      <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="col-lg-12">
+                      <input type="password" class="form-control" id="inputPassword" placeholder="Confirm Password">
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="d-flex justify-content-end">
+                  <a href="business-register2.html" class="btn btn-cust-primary" style="margin-top: 30px; margin-bottom: 20px; font-weight: bold;" type="submit">Next</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-4" style="padding: 30px; border-bottom-right-radius: 10px; border-top-right-radius: 10px; background-color: #44d9e6;">
+              <div class="col-lg-12 text-center" style="font-size: 15px; font-weight: 400;">
+                <img src="image/sign up business.svg" width="100%" alt="...">
+                <p style="color:white; margin-top: 50px;">Our goal is to promote the most reliable and trustworthy local businesses. As a result, we will email you and ask for two references after your sign up request has been received. This is our way of filtering out the non-qualified and non-local businesses.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- For Mobile View -->
+        <div class="container shadow d-lg-none d-md-block d-sm-block d-xs-block" style="border-radius: 10px;">
+          <div class="row">
+            <!--PHONE-->
+            <div class="col-xs-12 d-md-none d-sm-none d-xs-block" style="padding: 30px; border-top-left-radius: 10px; border-top-right-radius: 10px; background-color: #44d9e6;">
+              <div class="col-xs-12 text-center" style="font-size: 12px; font-weight: 400;">
+                <img src="image/sign up business.svg" width="100%" alt="...">
+                <p style="color:white; margin-top: 50px;">Our goal is to promote the most reliable and trustworthy local businesses. As a result, we will email you and ask for two references after your sign up request has been received. This is our way of filtering out the non-qualified and non-local businesses.</p>
+              </div>
+            </div>
+
+            <!--TAB-->
+            <div class="col-md-12 col-sm-12 d-none d-md-block d-sm-block" style="padding: 30px; border-top-left-radius: 10px; border-top-right-radius: 10px; background-color: #44d9e6;">
+              <div class="row">
+                <div class="col-md-2 col-sm-2"></div>
+                <div class="col-md-8 col-sm-8 text-center" style="font-size: 12px; font-weight: 400;">
+                  <img src="image/sign up business.svg" width="100%" alt="...">
+                  <p style="color:white; margin-top: 50px;">Our goal is to promote the most reliable and trustworthy local businesses. As a result, we will email you and ask for two references after your sign up request has been received. This is our way of filtering out the non-qualified and non-local businesses.</p>
+                </div>
+                <div class="col-md-2 col-sm-2"></div>
+              </div>
+            </div>
+
+            <div class="col-md-12 col-sm-12 col-xs-12" style="padding: 30px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; background-color: white;">
+              <!-- PHONE -->
+              <div class="container d-md-none d-sm-none d-xs-block">
+                <div style="color: #44d9e6; padding-bottom: 20px;">
+                  <h4>Register Your Business for Free!</h4>
+                </div>
+                <div class="col-xs-12">
+                  <input type="text" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="col-xs-12 mt-4">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+                <div class="col-xs-12 mt-4">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Confirm Password">
+                </div>
+                <br>
+                <div class="d-flex justify-content-end">
+                  <a href="business-register2.html" class="btn btn-cust-primary" style="margin-bottom: 20px; font-weight: bold;" type="submit">Next</a>
+                </div>
+              </div>
+
+              <!--TAB-->
+              <div class="container d-none d-md-block d-sm-block">
+                <div style="color: #44d9e6; padding-bottom: 20px;">
+                  <h4>Register Your Business for Free!</h4>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-sm-6">
+                    <input type="text" class="form-control" id="email" placeholder="Email">
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-md-6 col-sm-6">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Confirm Password">
+                  </div>
+                </div>
+                <br>
+                <div class="d-flex justify-content-end">
+                  <a href="business-register2.html" class="btn btn-cust-primary" style="margin-bottom: 20px; font-weight: bold;" type="submit">Next</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid" style="background-color: #7C7C7C;">
+        <div class="container" style="width: 80%; padding-top: 50px; padding-bottom: 50px;">
+          <div class="row">
+            <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12" style="color: white;">
+              <img src="image/Logo.png" width="30%" alt="...">
+              <p style="margin-top: 25px;">4620 Macleod Trail SW, Calgary, Alberta T2G 5E8</p>
+              <i class="bi bi-telephone"></i>&ensp;&ensp;<small>081234567890</small> <br>
+              <i class="bi bi-envelope"></i>&ensp;&ensp;<small>sampleInfo@hoohit.com</small>
+            </div>
+            <div class="d-none d-lg-block col-lg-4" style="color: white; padding-left: 100px;">
+              <h5 class="mt-5">Other Page</h5>
+              <br>
+              <p>About Us</p>
+              <p>Privacy Policy</p>
+              <p>Contact Us</p>
+            </div>
+            <div class="d-md-block d-lg-none d-xs-block col-md-4 col-sm-4 col-xs-12" style="color: white;">
+              <h5 class="mt-5">Other Page</h5>
+              <br>
+              <p>About Us</p>
+              <p>Privacy Policy</p>
+              <p>Contact Us</p>
+            </div>
+            <div class="col-lg-4 col-md-3 col-sm-12 col-xs-12" style="color: white; font-size: 24px;">
+              <h5 class="mt-5">Follow Us</h5>
+              <br>
+              <div class="d-inline" style="margin-right: 10px;">
+                <i class="bi bi-instagram"></i>
+              </div>
+              <div class="d-inline" style="margin-right: 10px;">
+                <i class="bi bi-facebook"></i>
+              </div>
+              <div class="d-inline">
+                <i class="bi bi-youtube"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid text-center" style="background-color: #666666;">
+        <div style="padding-top: 15px; padding-bottom: 15px; color: white;">HooHit © 2021</div>
+      </div>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/popper.min.js"></script>
+  </body>
+</html>
